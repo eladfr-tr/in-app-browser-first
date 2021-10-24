@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>in-app-first</title>
+    <title>in-app fist</title>
 </head>
 <body>
-    This is the first page
+    This is the fist page that redirect to aonther site
+     <br>
+     <a href="https://eladfr-tr.github.io/in-app-browser-second/"> a tag link to second page</a>
+     <br>
+     
+     <button class="js-link-open" onclick="linkWithWindowOpen()">
+        link with js window open
+    </button>
+    <br>
+    <button class="js-link-location-href" onclick="linkWithWindowLocationHref()">
+        link with js window location href
+    </button>
+    
+    <br>
+    <script>
+        function linkWithWindowOpen(){
+            window.open("https://eladfr-tr.github.io/in-app-browser-second/")
+        }
+
+        function linkWithWindowLocationHref() {
+            window.location.href = "https://eladfr-tr.github.io/in-app-browser-second/"
+        }
+
+    </script>
 </body>
 </html>
